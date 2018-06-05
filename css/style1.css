@@ -1,0 +1,155 @@
+.sve {
+	max-width: 860px;
+	background-color: #fbefd9;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding: 20px;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+img {
+	height: 350px;
+	margin: 0px;
+	width: 100%;
+}
+header {
+	max-height: 350px;
+}
+header h1 {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 35px;
+}
+main {
+	position: relative;
+	overflow: hidden;
+	/*padding: 0px 0px 0px 20px;*/
+	box-sizing: border-box;
+	margin: 0px;
+	/*width: 100%;*/
+}
+h2 {
+	text-decoration: underline;
+	padding-bottom: 40px;
+}
+p {
+	text-align: justify;
+}
+nav ul li {
+	/*line-height: 70px;*/
+	text-align: center;
+	margin: 0;
+	list-style-type: none;
+}
+nav ul li a {
+
+	/*display: block;*/
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	transition: all 1s ease-in-out;
+	/*font-size: 16px;*/
+	/*margin: 20px 10px 0px 0px;*/
+	/*font-weight: 700;*/
+}
+nav {
+	/*padding-right: 30px;*/
+	padding-top: 15px;
+	padding-bottom: 30px;
+	float: right;
+	width: 25%;
+	box-sizing: border-box;
+	background-color: #edd39a;
+	/*border-radius: 10px;*/
+}
+div.clearfix {
+	clear: both;
+	height: 0px;
+	padding: 0px;
+}
+.glavni {
+	height: auto;
+	float: left;
+	width: 75%;
+	padding: 30px 30px 0px 0px;
+	box-sizing: border-box;
+	/*background-color: #fbefd9;*/
+	margin: 0px;
+}
+div.budibox {
+	float: left;
+	width: 32.5%;
+	padding: 40px 30px 0px 0px;
+	box-sizing: border-box;
+	/*background-color: #fbefd9;*/
+	/*margin-right: 20px;*/
+}
+div.budibox1 {
+	float: left;
+	width: 32.5%;
+	padding: 40px 30px 0px 0px;
+	box-sizing: border-box;
+	/*background-color: #fbefd9;*/
+	/*margin-right: 20px;*/
+}
+nav.budibox {
+	/*padding: 0px;*/
+	padding-bottom: 250px;
+	float: right;
+	width: 25%;
+	box-sizing: border-box;
+	background-color: #edd39a;
+	/*border-radius: 10px;*/
+
+}
+/*span {
+	padding-left: 30px;
+}*/
+.budibox {
+	display: inline-block
+}
+div.budibox1 {
+	/*padding: 40px 30px 0px 0px;*/
+	width: 42.5%;
+}
+nav ul {
+	padding-left: 0px;
+	margin: 0px;
+
+}
+h2, h1 {
+	font-family: "Arial", sans-serif;
+}
+nav.budibox ul span {
+	font-weight: bold;
+	padding-left: 30px;
+	font-family: "Arial", sans-serif;
+}
+.budibox ul li a {
+	border-bottom: 1px solid white;
+}
+nav ul li a:visited {
+    color: black;
+}
+nav ul li a:hover {
+
+	color: gray;
+	transition: all 1s ease-in-out;
+
+}
+nav ul li:hover {
+	color: gray;
+    transition: all 1s ease-in-out;
+}
+
+nav ul li a:active {
+    color: yellow;
+}
+.budibox ul li a {
+	border-bottom: 3px solid white;
+}
